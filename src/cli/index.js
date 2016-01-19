@@ -13,7 +13,7 @@ module.exports = function () {
       port: {
         alias: 'p',
         description: 'Set port',
-        default: 80
+        default: process.env.PORT || 3000
       },
       host: {
         alias: 'H',
