@@ -13,7 +13,7 @@ module.exports = function () {
       port: {
         alias: 'p',
         description: 'Set port',
-        default: $PORT
+        default: 80
       },
       host: {
         alias: 'H',
