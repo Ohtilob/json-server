@@ -15,6 +15,7 @@
     "cors": "^2.3.0",
     "errorhandler": "^1.2.0",
     "express": "^4.9.5",
+    "faker": "^3.0.1",
     "got": "^3.3.0",
     "lodash": "^3.9.2",
     "lowdb": "^0.10.0",
@@ -40,7 +41,7 @@
     "test": "npm run test:cli && npm run test:server && standard",
     "test:cli": "NODE_ENV=test mocha -R spec test/cli/*.js",
     "test:server": "NODE_ENV=test mocha -R spec test/server/*.js",
-    "start": "node bin db.json",
+    "start": "node bin autogenerate.js",
     "prepush": "npm t"
   },
   "repository": {
